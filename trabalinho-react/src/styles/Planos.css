@@ -1,0 +1,51 @@
+.planos-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.planos-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.table-container {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.planos-table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Remove bordas duplicadas (Parece que deixa mais junto a tabela)*/
+}
+
+.planos-table th,
+.planos-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.planos-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.planos-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.planos-table tr:hover {
+  background-color: #ddd;
+}
